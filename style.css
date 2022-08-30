@@ -1,0 +1,109 @@
+/* The CSS for My_favorite_things.html | The class and Id are showing here in the code, I also made some style changes. */
+
+
+
+#page-title {
+    color:orange;
+    background: black;
+    margin: 10px;
+    padding: 60px;
+    background-size: 40px;
+    text-align: center;
+    
+}
+
+/* h1: Is responsible for centering the text of my name in the title of the page*/
+
+h1 {
+    text-align: center;
+}
+
+.favorite-section {
+    margin: 15px;
+    padding: 15px;
+    border: 15px rebeccapurple;
+
+}
+
+/* Section-header; represents the h2 titles for each favorite thing  */
+
+.section-header {
+    color: red;
+    text-shadow: 1px 1px black;
+}
+
+/* I get the color from this website: mycolor.space.  */
+
+body {
+    background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+#favorite-movie-title {
+    color:yellow;
+    text-decoration: italic;
+    
+}
+
+/* text : text modify the color for the paragraphs  */
+#text1 {
+    color:blue;
+    font-family: cursive;
+}
+
+#favorite-music-name {
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+
+}
+
+/* text : text modify the color for the paragraphs  */ 
+
+#text2 {
+    color: darkgreen;
+    font-family: cursive
+}
+
+#most-favorite-food {
+    font-family: cursive;
+    color: purple;
+}
+
+.favorite-image {
+    border-radius:50px;
+    border: 1px solid red;
+    padding: 5px;
+   
+}
+
+/* The table CSS was made by the id:table_styles . The guide and examples come from  W3 schools. */
+
+#table_styles {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #table_styles td, #table_styles th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #table_styles tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #table_styles tr:hover {background-color: #ddd;}
+  
+  #table_styles th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: blueviolet;
+    color: white;
+  }
+
+/* The class:container represents the video on the first section " My favorite movie  */
+
+.container {
+    width: 300px;
+    height: 300px;
+}

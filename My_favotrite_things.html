@@ -1,0 +1,122 @@
+<!-- Welcome to my first Web page | My_favorite_things.html | styles.css | Some Images|  ( Oscar Chiqui - August,2022 ) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Things</title> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- I start with the title and the id for h1  -->
+
+    <h1 id="page-title">Some of my favorite things</h1>
+    <h1>By Oscar</h1>
+
+<!-- The first section "Favorite Movie" | I use the class for div and h2 also the id:text1 and id: favorite-movie-title in the paragraph-->
+
+    <div class="favorite-section">
+
+        <h2 class="section-header">My Favorite Movie</h2>
+
+        <p id="text1">AVATAR takes us to a world beyond imagination, where a newcomer from Earth embarks on an epic adventure, ultimately fighting to save the strange world he has learned to call home.<br>
+             James Cameron, the Oscar-winning director of "Titanic" first envisioned the film fifteen years ago, when the means to carry out and realize his vision was still non-existent.<span id="favorite-movie-title"><i><span> The Movie Avatar </span></i></span>.
+
+            <p>Here's the trailer of the movie and Website with more info ! <a href="https://www.imdb.com/title/tt0499549/"> IMDB.com </a></p> 
+
+ <!--I use a video from youtube , which I embed by copy directly from youtube also I get help from a video by "Codefoxx" on youtube.
+     The video shows a easy way to follow and do. https://www.youtube.com/watch?v=ly36kn0ug4k&ab_channel=codefoxx -->
+
+            <div class="container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5PSNL1qE6VY" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div>
+    </div>
+
+<!-- The second section "My favorite Band/Artist" For this section I use the class and the id: text2 ,some text styles, img + alt , id: favorite-music-name.  -->
+
+    <div class="favorite-section">
+
+    <h2 class="section-header">My Favorite Band/Artist</h2>
+
+    <p id="text2">The band <B>Héroes del Silencio</B> was an influential band for its lyrics and good sound.
+        <br>Some compared it to Guns and Roses, which led it to be successful in <I>Europe and South America.</I></p>
+         
+        <img src="images.jpg" alt="The band" >
+
+        <p>Album disc in 1998 <span id="favorite-music-name">"El Mar No Cesa"</span>.
+        <br>Here's a link about the history and achievements of the band <a href="https://www.allmusic.com/artist/h%C3%A9roes-del-silencio-mn0000954045/biography">allmusic.com</a>.</p>
+    </div>
+    
+
+<!-- The Third Section | The list of food and the id for each word also I add a image for representation. -->
+
+    <div class="favorite-section">
+        
+        <h2 class="section-header">My favorite Food.</h2>
+            <ul>
+                <li id="most-favorite-food">Pollo Asado</li>
+                <li id="most-favorite-food">Pasta and Salad</li>
+                <li id="most-favorite-food">Empanadas</li>
+            </ul>
+    </div>
+    <img src="chicken-pasta-salad-21.webp" 
+                alt="Pasta" width="200" height="200">
+
+<!-- The fourth Section | The source for images is Unsplash.com | The class for h2 and each image. -->
+
+    <div class="favorite-section">
+
+        <h2 class="section-header">My Favorite images</h2>
+        <ol>
+            <li>A mountain at Sunset. </li>
+            <img src="willian-justen-de-vasconcellos-lDtPi8I-6TE-unsplash.jpg" class="favorite-image" alt="Beautiful" height="200">
+            <li>Graphics Card "NVIDIA"</li>
+            <img src="christian-wiediger-TErYPw4o1KM-unsplash.jpg" class="favorite-image" alt="Beautiful" height="200">
+
+        </ol>
+    </div>
+
+    <!-- The Fifth section | For this table I get help from "W3 schools" as example.( https://www.w3schools.com/html/html_tables.asp )
+         The id: table_styles , the class: favorite-section and section-header.The links for a website a href as reference in the code. -->
+
+    <div class="favorite-section">
+
+        <h2 class="section-header">My Favorite Books</h2>
+
+        <table id="table_styles">
+            <tr>
+              <th>Name</th>
+              <th>Author</th>
+              <th>Website (link)</th>
+            </tr>
+            <tr>
+              <td>Spider-Man: Birth of Venom</td>
+              <td>Roger Stern</td>
+              <td><a href="https://www.amazon.com/Spider-Man-Birth-Venom-Jim-Shooter/dp/0785124985/ref=sr_1_12?crid=7QICZWPVZGY6&keywords=spiderman+comic&qid=1661835963&s=books&sprefix=spiderman+comic%2Cstripbooks%2C116&sr=1-12">amazon books</a></td>
+            </tr>
+            <tr>
+              <td>Dragon ball Manga </td>
+              <td>Akira Toriyama </td>
+              <td><a href="https://www.viz.com/read/manga/dragon-ball-complete-box-set/product/5939">  Viz.com</a></td>
+            </tr>
+            <tr>
+              <td>The three little Pigs </td>
+              <td>Gavin Bishop</td>
+              <td><a href="https://www.goodreads.com/en/book/show/12179545-the-three-little-pigs">Goodreads.com</a></td>
+            </tr>
+          </table>
+    </div>
+
+    <!-- A final message for visitors  -->
+
+    <h4> <u>Thanks for your visit, See you later !</u></h4>
+    <p>August,2022 </p>
+
+    
+</body>
+</html>
